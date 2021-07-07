@@ -1,19 +1,17 @@
 #!/bin/bash
 
-dir=/c/Users/pinic/Documents/REHS21/QUICK-tests/Inputs/Medium/b3lyp-def2svp
-cd ${dir}
+in_dir=${1}
+xyz_dir=${2}
 
-xyzdir=/c/Users/pinic/Documents/REHS21/QUICK-tests/xyz-files/Medium
+mkdir -p ${xyz_dir}
 
-for f in *;
+for f in ${in_dir}/*;
 do
     name=`basename ${f} .in`    
-    lines=`wc -l < ${f}`
-    let "lines=lines-4"
-    touch ${xyzdir}/${name}.xyz
-    echo ${lines} >> ${xyzdir}/${name}.xyz
-    echo ${name} >> ${xyzdir}/${name}.xyz
-    tail -n +3 ${f} >> ${xyzdir}/${name}.xyz
-    touch ${xyzdir}/list.txt
-    echo ${name} ${lines} >> list.txt
+    atom_count=`wc -l < ${f}`
+    let "atom_count=atom_count-4"
+    touch ${xyz_dir}/${name}.xyz
+    echo ${atom_count} >> ${xyz_dir}/${name}.xyz
+    echo ${name} >> ${xyz_dir}/${name}.xyz
+    tail -n +3 ${f} >> ${xyz_dir}/${name}.xyz
 done
