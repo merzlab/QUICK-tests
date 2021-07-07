@@ -5,9 +5,6 @@
 
 DATADIR=$(pwd)
 
-source quick.rc
-
-
 
 number=$1
 file=$2
