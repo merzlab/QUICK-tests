@@ -12,5 +12,5 @@ do
         number=$(cat $outdir/$file.xyz | sed '/^\s*$/d' | wc -l)
         atomcount="$(($number-1))"
         sed -i "1 c\\$atomcount" $outdir/$file.xyz 
-        sed -i "1 c\\$file" $outdir/$file.xyz 
+        sed -i "2 c\\$file" $outdir/$file.xyz 
 done
