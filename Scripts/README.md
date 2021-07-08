@@ -13,4 +13,4 @@ xyz-maker.sh
 --------
 * Converts QUICK .in files into .xyz files
 * Example: `xyz-maker.sh /path/to/folder/with/QUICK/input/files /path/to/folder/for/xyz/files`
-* The script will create `/path/to/folder/for/xyz/files`, the directory does not need to be created before hand
+* The script will create `/path/to/folder/for/xyz/files`, the directory does not need to be created beforehand
