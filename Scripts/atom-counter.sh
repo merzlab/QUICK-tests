@@ -9,12 +9,18 @@ for f in ${in_dir}/*;
 do
     name=`basename ${f} .in`    
 
+    empty_line=0
     atom_count=0
+
     while IFS= read -r line
     do
         line_len=${#line}
-        if [ ${line_len} -gt 10 ] && [ ${line_len} -lt 60 ]; then
-        let "atom_count=atom_count+1"
+        if [ ${line_len} -lt 2 ]; then
+            let "empty_line=empty_line+1"
+        fi
+
+        if [ ${line_len} -gt 2 ] && [ ${empty_line} -eq 1 ]; then
+            let "atom_count=atom_count+1"
         fi
     done < "${f}"
 

@@ -25,7 +25,6 @@ do
             let "atom_count=atom_count+1"
             echo "${line}" >> /tmp/output.txt
         fi
-
     done < "${f}"
 
     echo ${atom_count} >> ${xyz_dir}/${name}.xyz
