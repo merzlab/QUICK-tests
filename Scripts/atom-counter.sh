@@ -20,3 +20,6 @@ do
 
     echo ${name} ${atom_count} >> ${output_file}
 done
+
+sort -k 2n ${output_file} > tmp.txt
+mv tmp.txt ${output_file}
