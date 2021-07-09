@@ -20,6 +20,6 @@ atom-counter-xyz.sh
 xyz-maker.sh
 --------
 * Converts QUICK .in files into .xyz files
-* Example: `xyz-maker.sh /path/to/folder/with/QUICK/input/files /path/to/folder/for/xyz/files`
+* Example: `./xyz-maker.sh /path/to/folder/with/QUICK/input/files /path/to/folder/for/xyz/files`
 * The script will create `/path/to/folder/for/xyz/files`, the directory does not need to be created beforehand
 * The input files don't need to be in any particular format beforehand
