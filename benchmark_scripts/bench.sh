@@ -1,5 +1,7 @@
 #!/bin/bash
 
+NCORES='4 8 16 32'
+
 DATADIR=$(pwd)
 
 module load mpi
@@ -13,9 +15,9 @@ location=${1:-benchmarkinputs}
 for fileraw in $location/*
 do
         file=$(basename $fileraw .in)
-        for number in 1 2 4 6 8 12 16
+        for number in $NOCRES
         do
                 cp $location/$file.in $DATADIR/benchmark/$number$file.in
-                sbatch bm_ind.slurm $number $file
+                sbatch --ntasks $number bm_ind.slurm $number $file
         done
 done
