@@ -3,6 +3,10 @@
 
 DATADIR=$(pwd)
 
+module load mpi
+
+source quick.rc
+
 
 number=$1
 file=$2

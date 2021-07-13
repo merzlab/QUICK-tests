@@ -4,9 +4,6 @@ NCORES='4 8 16 32'
 
 DATADIR=$(pwd)
 
-module load mpi
-
-source quick.rc
 
 mkdir -p $DATADIR/benchmark/
 
