@@ -1,0 +1,7 @@
+HF BASIS=def2-svp cutoff=1.0e-9 denserms=1.0e-6  zmake GRADIENT DIPOLE CHARGE=0
+
+C         -0.78160       -0.15480        0.46620
+O         -1.94660        0.22210        0.44730
+H         -0.45470       -1.07900       -0.03650
+H          0.00960        0.40780        0.98700
+
