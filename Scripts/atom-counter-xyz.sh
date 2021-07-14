@@ -16,7 +16,7 @@ do
     read -r atom_count < ${f}
 
     #writes the line in the output file
-    echo ${name} ${atom_count} >> ${output_file}
+    echo "${name}, ${atom_count}" >> ${output_file}
 done
 
 #reorders the contents of the output file so that
