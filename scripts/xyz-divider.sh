@@ -35,7 +35,7 @@ do
             mv ${f} ${out_dir}/medium
 
         else
-            mve ${f} ${out_dir}/large
+            mv ${f} ${out_dir}/large
         fi
 
     done < "${f}"
