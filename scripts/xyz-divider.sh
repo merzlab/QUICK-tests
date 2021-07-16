@@ -26,16 +26,16 @@ do
         read -r atom_count < ${f}
 
         if [ ${atom_count} -lt 10 ]; then
-            mv ${f} ${out_dir}/tiny
+            cp ${f} ${out_dir}/tiny
 
         elif [ ${atom_count} -ge 10 ] && [ ${atom_count} -lt 25 ]; then
-            mv ${f} ${out_dir}/small
+            cp ${f} ${out_dir}/small
         
         elif [ ${atom_count} -ge 25 ] && [ ${atom_count} -lt 100 ]; then
-            mv ${f} ${out_dir}/medium
+            cp ${f} ${out_dir}/medium
 
         else
-            mv ${f} ${out_dir}/large
+            cp ${f} ${out_dir}/large
         fi
 
     done < "${f}"
