@@ -1,4 +1,4 @@
-HF BASIS={BS} cutoff=1.0e-9 denserms=1.0e-8 ncyc=1000 zmake ENERGY
+DFT B3LYP BASIS=6-31G** cutoff=1.0e-9 denserms=1.0e-8 ncyc=1000 GRADIENT
 
 N    2.980   2.984   1.2240     
 C    2.288  3.512  2.4     
