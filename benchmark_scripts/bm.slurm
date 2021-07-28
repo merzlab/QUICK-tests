@@ -20,11 +20,13 @@ mode=$3
 
 starttime=`date +%s`
 
+echo "Running $ntasks with $mem on $(hostname)" >> results.txt
+
 if [ "$mode" ==  "cpu" ]; then
-	echo "CPU mode (bm.slurm) number $number mode $mode" >> results.txt 
+	#echo "CPU mode (bm.slurm) number $number mode $mode" >> results.txt 
 	mpirun -np $number quick.MPI $DATADIR/benchmark/${file}_${number}.in
 else
-	echo "GPU mode (bm.slurm) number $number mode $mode file $file" >> results.txt 
+	#echo "GPU mode (bm.slurm) number $number mode $mode file $file" >> results.txt 
 	module load cuda
 	mpirun -np $number quick.cuda.MPI $DATADIR/benchmark/${file}_${number}.in
 fi 

@@ -5,7 +5,7 @@ DATADIR=$(pwd)
 
 mkdir -p $DATADIR/benchmark/
 
-NCORES='4 8 16 32'
+NCORES='4 8 16 32 64 128'
 NGPUS='1 2 4 8'
 
 location=${1:-benchmarkinputs}
@@ -27,7 +27,8 @@ do
        		for number in $NCORES
         	do
 			cp $location/$file.in $DATADIR/benchmark/${file}_${number}.in
-			sbatch --partition=compute --account=csd194 --nodes=1 --ntasks $number bm.slurm $number $file $mode
+			mem=$(( $number * 4 ))
+			sbatch --partition=compute --account=csd194 --nodes=1 --mem=240G --ntasks-per-node=$number bm.slurm $number $file $mode
        		done
 	fi 
 done
