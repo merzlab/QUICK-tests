@@ -1,0 +1,305 @@
+acetonitrile cpu 8 5 ------------- TIMING ---------------
+| INITIAL GUESS TIME  =     0.574154000( 14.12%)
+| TOTAL SCF TIME      =     3.479251000( 85.56%)
+|       TOTAL OP TIME      =     3.455286000( 84.97%)
+|             TOTAL 1e TIME      =     0.002429000(  0.06%)
+|             TOTAL 2e TIME      =     3.451294000( 84.87%)
+|       TOTAL DII TIME      =     0.023856000(  0.59%)
+|             TOTAL DIAG TIME    =     0.008827000(  0.22%)
+| TOTAL TIME          =     4.066331000
+------------------------------------
+| Job cpu time:  0 days  0 hours  0 minutes  4.1 seconds.
+ @ Finish Output Timing Information
+| Normal Termination. Task Finished on: Thu Jul 29 09:46:15 2021
+acetonitrile cpu 16 5 ------------- TIMING ---------------
+| INITIAL GUESS TIME  =     0.605089000( 15.33%)
+| TOTAL SCF TIME      =     3.322100000( 84.19%)
+|       TOTAL OP TIME      =     3.298088000( 83.58%)
+|             TOTAL 1e TIME      =     0.001496000(  0.04%)
+|             TOTAL 2e TIME      =     3.294806000( 83.50%)
+|       TOTAL DII TIME      =     0.023899000(  0.61%)
+|             TOTAL DIAG TIME    =     0.009078000(  0.23%)
+| TOTAL TIME          =     3.945818000
+------------------------------------
+| Job cpu time:  0 days  0 hours  0 minutes  3.9 seconds.
+ @ Finish Output Timing Information
+| Normal Termination. Task Finished on: Thu Jul 29 09:46:19 2021
+acetonitrile cpu 32 5 ------------- TIMING ---------------
+| INITIAL GUESS TIME  =     0.715878000( 17.64%)
+| TOTAL SCF TIME      =     3.315721000( 81.71%)
+|       TOTAL OP TIME      =     3.292988000( 81.15%)
+|             TOTAL 1e TIME      =     0.001174000(  0.03%)
+|             TOTAL 2e TIME      =     3.288071000( 81.03%)
+|       TOTAL DII TIME      =     0.022621000(  0.56%)
+|             TOTAL DIAG TIME    =     0.008798000(  0.22%)
+| TOTAL TIME          =     4.057910000
+------------------------------------
+| Job cpu time:  0 days  0 hours  0 minutes  4.1 seconds.
+
+ @ Finish Output Timing Information
+
+| Normal Termination. Task Finished on: Thu Jul 29 09:46:25 2021
+acetonitrile cpu 64 7 ------------- TIMING ---------------
+| INITIAL GUESS TIME  =     0.980399000( 22.62%)
+| TOTAL SCF TIME      =     3.320274000( 76.59%)
+|       TOTAL OP TIME      =     3.295569000( 76.02%)
+|             TOTAL 1e TIME      =     0.001142000(  0.03%)
+|             TOTAL 2e TIME      =     3.289610000( 75.88%)
+|       TOTAL DII TIME      =     0.024586000(  0.57%)
+|             TOTAL DIAG TIME    =     0.008927000(  0.21%)
+| TOTAL TIME          =     4.335079000
+------------------------------------
+| Job cpu time:  0 days  0 hours  0 minutes  4.3 seconds.
+
+ @ Finish Output Timing Information
+
+| Normal Termination. Task Finished on: Thu Jul 29 09:46:31 2021
+acetonitrile cpu 128 10 ------------- TIMING ---------------
+| INITIAL GUESS TIME  =     1.568947000( 28.64%)
+| TOTAL SCF TIME      =     3.854993000( 70.37%)
+|       TOTAL OP TIME      =     3.828186000( 69.88%)
+|             TOTAL 1e TIME      =     0.001242000(  0.02%)
+|             TOTAL 2e TIME      =     3.812241000( 69.59%)
+|       TOTAL DII TIME      =     0.026671000(  0.49%)
+|             TOTAL DIAG TIME    =     0.010176000(  0.19%)
+| TOTAL TIME          =     5.478094000
+------------------------------------
+| Job cpu time:  0 days  0 hours  0 minutes  5.5 seconds.
+
+ @ Finish Output Timing Information
+
+| Normal Termination. Task Finished on: Thu Jul 29 09:46:41 2021
+morphine cpu 8 477 ------------- TIMING ---------------
+| INITIAL GUESS TIME  =     0.853127000(  0.18%)
+| DFT GRID OPERATIONS =     0.438276000(  0.09%)
+| TOTAL SCF TIME      =   342.714370000( 71.86%)
+|       TOTAL OP TIME      =   334.952628000( 70.23%)
+|             TOTAL 1e TIME      =     0.035706000(  0.01%)
+|             TOTAL 2e TIME      =   290.184534000( 60.84%)
+|             TOTAL EXC TIME     =    44.688943000(  9.37%)
+|       TOTAL DII TIME      =     7.755433000(  1.63%)
+|             TOTAL DIAG TIME    =     1.855280000(  0.39%)
+| TOTAL GRADIENT TIME      =   132.676045000( 27.82%)
+|       TOTAL 1e GRADIENT TIME      =     0.152901000( 0.06%)
+|       TOTAL 2e GRADIENT TIME      =   117.095762000(24.55%)
+|       TOTAL EXC GRADIENT TIME     =     5.736879000(  1.20%)
+| TOTAL TIME          =   476.934708000
+morphine cpu 16 273 ------------- TIMING ---------------
+| INITIAL GUESS TIME  =     0.900083000(  0.33%)
+| DFT GRID OPERATIONS =     0.323247000(  0.12%)
+| TOTAL SCF TIME      =   197.455608000( 72.31%)
+|       TOTAL OP TIME      =   189.704325000( 69.47%)
+|             TOTAL 1e TIME      =     0.019114000(  0.01%)
+|             TOTAL 2e TIME      =   161.999119000( 59.33%)
+|             TOTAL EXC TIME     =    27.631644000( 10.12%)
+|       TOTAL DII TIME      =     7.744799000(  2.84%)
+|             TOTAL DIAG TIME    =     1.855975000(  0.68%)
+| TOTAL GRADIENT TIME      =    74.130268000( 27.15%)
+|       TOTAL 1e GRADIENT TIME      =     0.084692000( 0.05%)
+|       TOTAL 2e GRADIENT TIME      =    65.113400000(23.85%)
+|       TOTAL EXC GRADIENT TIME     =     1.908685000(  0.70%)
+| TOTAL TIME          =   273.059082000
+morphine cpu 32 152 ------------- TIMING ---------------
+| INITIAL GUESS TIME  =     1.017180000(  0.67%)
+| DFT GRID OPERATIONS =     0.289161000(  0.19%)
+| TOTAL SCF TIME      =   110.654423000( 73.03%)
+|       TOTAL OP TIME      =   102.884124000( 67.90%)
+|             TOTAL 1e TIME      =     0.012126000(  0.01%)
+|             TOTAL 2e TIME      =    86.978609000( 57.40%)
+|             TOTAL EXC TIME     =    15.833216000( 10.45%)
+|       TOTAL DII TIME      =     7.763897000(  5.12%)
+|             TOTAL DIAG TIME    =     1.883546000(  1.24%)
+| TOTAL GRADIENT TIME      =    39.272464000( 25.92%)
+|       TOTAL 1e GRADIENT TIME      =     0.053607000( 0.06%)
+|       TOTAL 2e GRADIENT TIME      =    34.383544000(22.69%)
+|       TOTAL EXC GRADIENT TIME     =     0.702174000(  0.46%)
+| TOTAL TIME          =   151.523771000
+morphine cpu 64 136 ------------- TIMING ---------------
+| INITIAL GUESS TIME  =     1.300093000(  0.97%)
+| DFT GRID OPERATIONS =     0.400550000(  0.30%)
+| TOTAL SCF TIME      =    98.476469000( 73.28%)
+|       TOTAL OP TIME      =    90.599252000( 67.42%)
+|             TOTAL 1e TIME      =     0.012444000(  0.01%)
+|             TOTAL 2e TIME      =    79.404609000( 59.09%)
+|             TOTAL EXC TIME     =    11.089346000(  8.25%)
+|       TOTAL DII TIME      =     7.870662000(  5.86%)
+|             TOTAL DIAG TIME    =     1.964568000(  1.46%)
+| TOTAL GRADIENT TIME      =    33.842679000( 25.18%)
+|       TOTAL 1e GRADIENT TIME      =     0.039062000( 0.05%)
+|       TOTAL 2e GRADIENT TIME      =    30.664289000(22.82%)
+|       TOTAL EXC GRADIENT TIME     =     0.332428000(  0.25%)
+| TOTAL TIME          =   134.386682000
+morphine cpu 128 155 ------------- TIMING ---------------
+| INITIAL GUESS TIME  =     1.948260000(  1.31%)
+| DFT GRID OPERATIONS =     0.680447000(  0.46%)
+| TOTAL SCF TIME      =   108.510841000( 72.70%)
+|       TOTAL OP TIME      =    99.435363000( 66.62%)
+|             TOTAL 1e TIME      =     0.028219000(  0.02%)
+|             TOTAL 2e TIME      =    91.253242000( 61.13%)
+|             TOTAL EXC TIME     =     7.922689000(  5.31%)
+|       TOTAL DII TIME      =     9.067869000(  6.07%)
+|             TOTAL DIAG TIME    =     2.207446000(  1.48%)
+| TOTAL GRADIENT TIME      =    37.560437000( 25.16%)
+|       TOTAL 1e GRADIENT TIME      =     0.033037000( 0.04%)
+|       TOTAL 2e GRADIENT TIME      =    35.416946000(23.73%)
+|       TOTAL EXC GRADIENT TIME     =     0.256693000(  0.17%)
+| TOTAL TIME          =   149.267803000
+gly12 cpu 8 4242 ------------- TIMING ---------------
+| INITIAL GUESS TIME  =     6.124946000(  0.14%)
+| TOTAL SCF TIME      =  4249.347322000( 99.81%)
+|       TOTAL OP TIME      =  4184.688571000( 98.29%)
+|             TOTAL 1e TIME      =     0.260345000(  0.01%)
+|             TOTAL 2e TIME      =  4184.279900000( 98.28%)
+|       TOTAL DII TIME      =    64.629800000(  1.52%)
+|             TOTAL DIAG TIME    =    14.664481000(  0.34%)
+| TOTAL TIME          =  4257.458358000
+------------------------------------
+| Job cpu time:  0 days  1 hours 10 minutes 57.5 seconds.
+
+ @ Finish Output Timing Information
+
+| Normal Termination. Task Finished on: Thu Jul 29 10:56:51 2021
+gly12 cpu 16 2279 ------------- TIMING ---------------
+| INITIAL GUESS TIME  =     6.188113000(  0.27%)
+| TOTAL SCF TIME      =  2283.350197000( 99.64%)
+|       TOTAL OP TIME      =  2218.712397000( 96.82%)
+|             TOTAL 1e TIME      =     0.138195000(  0.01%)
+|             TOTAL 2e TIME      =  2218.397098000( 96.81%)
+|       TOTAL DII TIME      =    64.611532000(  2.82%)
+|             TOTAL DIAG TIME    =    14.694384000(  0.64%)
+| TOTAL TIME          =  2291.584441000
+------------------------------------
+| Job cpu time:  0 days  0 hours 38 minutes 11.6 seconds.
+
+ @ Finish Output Timing Information
+
+| Normal Termination. Task Finished on: Thu Jul 29 11:34:51 2021
+gly12 cpu 32 1272 ------------- TIMING ---------------
+| INITIAL GUESS TIME  =     6.313492000(  0.49%)
+| TOTAL SCF TIME      =  1270.253945000( 99.34%)
+|       TOTAL OP TIME      =  1205.523219000( 94.28%)
+|             TOTAL 1e TIME      =     0.087116000(  0.01%)
+|             TOTAL 2e TIME      =  1205.196394000( 94.25%)
+|       TOTAL DII TIME      =    64.704932000(  5.06%)
+|             TOTAL DIAG TIME    =    14.780281000(  1.16%)
+| TOTAL TIME          =  1278.685708000
+------------------------------------
+| Job cpu time:  0 days  0 hours 21 minutes 18.7 seconds.
+
+ @ Finish Output Timing Information
+
+| Normal Termination. Task Finished on: Thu Jul 29 11:56:03 2021
+gly12 cpu 64 787 ------------- TIMING ---------------
+| INITIAL GUESS TIME  =     6.716967000(  0.85%)
+| TOTAL SCF TIME      =   777.660435000( 98.84%)
+|       TOTAL OP TIME      =   712.926724000( 90.61%)
+|             TOTAL 1e TIME      =     0.099131000(  0.01%)
+|             TOTAL 2e TIME      =   712.413945000( 90.54%)
+|       TOTAL DII TIME      =    64.707523000(  8.22%)
+|             TOTAL DIAG TIME    =    14.904103000(  1.89%)
+| TOTAL TIME          =   786.806680000
+------------------------------------
+| Job cpu time:  0 days  0 hours 13 minutes  6.8 seconds.
+
+ @ Finish Output Timing Information
+
+| Normal Termination. Task Finished on: Thu Jul 29 12:09:10 2021
+gly12 cpu 128 594 ------------- TIMING ---------------
+| INITIAL GUESS TIME  =     8.724123000(  1.48%)
+| TOTAL SCF TIME      =   576.869428000( 97.94%)
+|       TOTAL OP TIME      =   502.413780000( 85.29%)
+|             TOTAL 1e TIME      =     0.176559000(  0.03%)
+|             TOTAL 2e TIME      =   501.383614000( 85.12%)
+|       TOTAL DII TIME      =    74.425796000( 12.64%)
+|             TOTAL DIAG TIME    =    17.078108000(  2.90%)
+| TOTAL TIME          =   589.031311000
+------------------------------------
+| Job cpu time:  0 days  0 hours  9 minutes 49.0 seconds.
+
+ @ Finish Output Timing Information
+| Normal Termination. Task Finished on: Thu Jul 29 12:19:04 2021
+water32 cpu 128 585 ------------- TIMING ---------------
+| INITIAL GUESS TIME  =     5.456910000(  0.94%)
+| TOTAL SCF TIME      =   572.158861000( 98.60%)
+|       TOTAL OP TIME      =   516.527841000( 89.02%)
+|             TOTAL 1e TIME      =     0.150365000(  0.03%)
+|             TOTAL 2e TIME      =   515.680053000( 88.87%)
+|       TOTAL DII TIME      =    55.602958000(  9.58%)
+|             TOTAL DIAG TIME    =    12.784520000(  2.20%)
+| TOTAL TIME          =   580.263754000
+------------------------------------
+| Job cpu time:  0 days  0 hours  9 minutes 40.3 seconds.
+ @ Finish Output Timing Information
+| Normal Termination. Task Finished on: Thu Jul 22 20:07:24 2021
+water32 cpu 64 634 ------------- TIMING ---------------
+| INITIAL GUESS TIME  =     4.058403000(  0.64%)
+| TOTAL SCF TIME      =   626.984541000( 99.09%)
+|       TOTAL OP TIME      =   579.144600000( 91.53%)
+|             TOTAL 1e TIME      =     0.080130000(  0.01%)
+|             TOTAL 2e TIME      =   578.724598000( 91.46%)
+|       TOTAL DII TIME      =    47.816180000(  7.56%)
+|             TOTAL DIAG TIME    =    11.119872000(  1.76%)
+| TOTAL TIME          =   632.730653000
+------------------------------------
+| Job cpu time:  0 days  0 hours 10 minutes 32.7 seconds.
+ @ Finish Output Timing Information
+| Normal Termination. Task Finished on: Thu Jul 22 20:08:14 2021
+water32 cpu 32 1013 ------------- TIMING ---------------
+| INITIAL GUESS TIME  =     3.703057000(  0.36%)
+| TOTAL SCF TIME      =  1011.712756000( 99.50%)
+|       TOTAL OP TIME      =   964.106991000( 94.81%)
+|             TOTAL 1e TIME      =     0.081604000(  0.01%)
+|             TOTAL 2e TIME      =   963.797418000( 94.78%)
+|       TOTAL DII TIME      =    47.583300000(  4.68%)
+|             TOTAL DIAG TIME    =    10.958455000(  1.08%)
+| TOTAL TIME          =  1016.837956000
+------------------------------------
+| Job cpu time:  0 days  0 hours 16 minutes 56.8 seconds.
+
+ @ Finish Output Timing Information
+
+| Normal Termination. Task Finished on: Thu Jul 22 20:14:34 2021
+water32 cpu 16 1742 ------------- TIMING ---------------
+| INITIAL GUESS TIME  =     3.547965000(  0.20%)
+| TOTAL SCF TIME      =  1741.499977000( 99.71%)
+|       TOTAL OP TIME      =  1693.243015000( 96.95%)
+|             TOTAL 1e TIME      =     0.145954000(  0.01%)
+|             TOTAL 2e TIME      =  1692.933435000( 96.93%)
+|       TOTAL DII TIME      =    48.233304000(  2.76%)
+|             TOTAL DIAG TIME    =    11.083380000(  0.63%)
+| TOTAL TIME          =  1746.498650000
+------------------------------------
+| Job cpu time:  0 days  0 hours 29 minutes  6.5 seconds.
+
+ @ Finish Output Timing Information
+
+| Normal Termination. Task Finished on: Thu Jul 22 20:26:44 2021
+water32 cpu 8 3044 ------------- TIMING ---------------
+| INITIAL GUESS TIME  =     3.425752000(  0.11%)
+| TOTAL SCF TIME      =  3055.318798000( 99.84%)
+|       TOTAL OP TIME      =  3007.852211000( 98.29%)
+|             TOTAL 1e TIME      =     0.269211000(  0.01%)
+|             TOTAL 2e TIME      =  3007.446319000( 98.28%)
+|       TOTAL DII TIME      =    47.442816000(  1.55%)
+|             TOTAL DIAG TIME    =    10.868039000(  0.36%)
+| TOTAL TIME          =  3060.066443000
+------------------------------------
+| Job cpu time:  0 days  0 hours 51 minutes  0.1 seconds.
+
+ @ Finish Output Timing Information
+
+| Normal Termination. Task Finished on: Thu Jul 22 20:48:26 2021
+water32 cpu 4 5588 ------------- TIMING ---------------
+| INITIAL GUESS TIME  =     3.368762000(  0.06%)
+| TOTAL SCF TIME      =  5617.141000000( 99.92%)
+|       TOTAL OP TIME      =  5569.653049000( 99.07%)
+|             TOTAL 1e TIME      =     0.503365000(  0.01%)
+|             TOTAL 2e TIME      =  5569.027806000( 99.06%)
+|       TOTAL DII TIME      =    47.463935000(  0.84%)
+|             TOTAL DIAG TIME    =    10.867218000(  0.19%)
+| TOTAL TIME          =  5621.776288000
+------------------------------------
+| Job cpu time:  0 days  1 hours 33 minutes 41.8 seconds.
+
+ @ Finish Output Timing Information
+| Normal Termination. Task Finished on: Thu Jul 22 21:30:50 2021
