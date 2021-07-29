@@ -14,15 +14,15 @@ source quick.rc
 export OMPI_MCA_btl_openib_allow_ib=1
 
 NCORES='8 16 32 64 128'
-NGPUS='1 2 4 8'
+NGPUS='1 2 4'
 
 location=$1
 file=$2
 mode=$3
 
 
-
-echo "Running $ntasks $mode tasks with $mem gb memory on $(hostname) for $file" >> results.txt
+echo "$file"
+echo "Job $SLURM_JOBID : $file" >> results.txt
 
 if [ "$mode" ==  "cpu" ]; then
 	#echo "CPU mode (bm.slurm) number $number mode $mode" >> results.txt 
