@@ -5,8 +5,8 @@ DATADIR=$(pwd)
 
 mkdir -p $DATADIR/benchmark/
 
-maxgpus=4
-maxcores=128
+maxgpus=8
+maxcores=256
 
 location=${1:-inputs}
 mode=${2:-cpu}
