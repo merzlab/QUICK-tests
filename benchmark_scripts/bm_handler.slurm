@@ -13,7 +13,7 @@ source quick.rc
 
 export OMPI_MCA_btl_openib_allow_ib=1
 
-NCORES='8 16 32 64 128'
+NCORES='8 16 32 64 128 256'
 NGPUS='1 2 4 8'
 
 location=$1
