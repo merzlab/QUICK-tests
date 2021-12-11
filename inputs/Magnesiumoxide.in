@@ -1,0 +1,6 @@
+DFT B3LYP BASIS=DEF2-SVP cutoff=1.0e-9 denserms=1.0e-6 GRADIENT DIPOLE CHARGE=0
+
+Mg        -6.41953        1.52486        0.00000
+O         -4.60901        1.52486        0.00000
+
+
