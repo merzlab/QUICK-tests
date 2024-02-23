@@ -1,0 +1,6 @@
+# Selected benchmarks
+name, atoms, basis set, basis functions
+psb5, 22, 6-31G**, 210
+morphine, 40, 6-31G**, 410
+taxol, 110, 6-31G**, 1160
+valinomycin, 168, 6-31G**, 1620
