@@ -1,2 +1,2 @@
 # QUICK-tests
-A Collection of Test Cases for QUICK Quantum Chemical Package
+A collection of input files and benchmark results for the QUICK quantum chemistry code.

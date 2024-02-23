@@ -1,0 +1,5 @@
+# Valinomycin, B3LYP/6-31G**, SCF + gradient (168 atoms, 1620 basis functions)
+GPU Type, GPU numbers, time/seconds, speedup (t1/tn), parallel efficiency (t1/tn/n)
+A100,  1, 170.4, 1.00, 1.00
+A100,  2,  97.8, 1.74, 0.87
+A100,  4,  60.3, 2.83, 0.71
