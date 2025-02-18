@@ -1,0 +1,17 @@
+>>> Running on host exp-16-58 <<<
+
+Benchmark psb5
+1 >> Elapsed time = 7 seconds =      0.1 minutes
+2 >> Elapsed time = 5 seconds =      0.1 minutes
+
+Benchmark morphine
+1 >> Elapsed time = 18 seconds =      0.3 minutes
+2 >> Elapsed time = 13 seconds =      0.2 minutes
+
+Benchmark taxol
+1 >> Elapsed time = 92 seconds =      1.5 minutes
+2 >> Elapsed time = 54 seconds =      0.9 minutes
+
+Benchmark valinomycin
+1 >> Elapsed time = 175 seconds =      2.9 minutes
+2 >> Elapsed time = 100 seconds =      1.7 minutes
