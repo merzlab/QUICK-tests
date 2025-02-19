@@ -8,7 +8,7 @@ SDSC Expanse A100 nodes
 - 4x NVIDIA A100-PCIE-40GB GPUs
 
 # Software stack
-- QUICK 23.08a
+- QUICK 24.03
 - GCC 10.2.0
 - CUDA 11.7.1
 - OpenMPI 4.1.3
