@@ -4,10 +4,10 @@ Benchmark psb5
 >> Elapsed time = 6 seconds =      0.1 minutes
 
 Benchmark morphine
->> Elapsed time = 22 seconds =      0.4 minutes
+>> Elapsed time = 21 seconds =      0.3 minutes
 
 Benchmark taxol
->> Elapsed time = 117 seconds =      1.9 minutes
+>> Elapsed time = 116 seconds =      1.9 minutes
 
 Benchmark valinomycin
->> Elapsed time = 221 seconds =      3.7 minutes
+>> Elapsed time = 220 seconds =      3.7 minutes
